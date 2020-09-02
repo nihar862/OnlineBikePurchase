@@ -1,0 +1,71 @@
+<app-header></app-header>
+    <div>
+    <div id="bannerImage">
+        
+        <div class="container">
+            <div align="center">
+                <div id="bannerContent">
+                    <h1>We sell .</h1>
+                    <p>Flat 40% OFF on all premium brands.</p>
+                   <a [routerLink]="['/products']" class="btn btn-danger">View Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-xs-4">
+                <div  class="thumbnail">
+                    
+                    <div class="border">
+                    <a [routerLink]="['/bikes']">
+                        <img src="../../assets/bike4.jpg" alt="bike4" style="width:350px;height:300px;"/>
+                    </a>
+                    <div align="center">
+                        <div class="caption">
+                            <p id="autoResize">MotorCycles</p>
+                            <p>Choose among the best available in the world.</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="thumbnail">
+                    <div class="border">
+                    <a [routerLink]="['/scooters']">
+                        <img src="../../assets/activa.jpg" alt="scooter1" style="width:350px;height:300px;"/>
+                    </a>
+                        
+                    <div align="center">
+                        <div class="caption">
+                            <p id="autoResize">Scooters</p>
+                            <p>Choose  among Lots of top brands.</p>
+
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="thumbnail">
+                    <div class="border">
+                    <a [routerLink]="['/accessories']">
+                        <img src="../../assets/asc1.jpg" alt="Accesories" style="width:350px;height:290px;"/>
+                    </a>
+                    <div align="center">
+                        <div class="caption">
+                            <p id="autoResize">Accesories</p>
+                            <p>All You need for your vehical at one Place</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <br><br><br><br><br>
+</div>
+<app-footer></app-footer>

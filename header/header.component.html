@@ -1,0 +1,20 @@
+<nav class="navbar navbar-inverse navabar-fixed-top">
+    <div class="container">
+               <div class="navbar-header">
+                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                   </button>
+                   <a [routerLink]="['/home']" class="navbar-brand">BikeGurus</a>
+               </div>
+               <div class="collapse navbar-collapse" id="myNavbar">
+                   <ul class="nav navbar-nav navbar-right">
+                       <li *ngIf="islogin"><a [routerLink]="['/']"><span class="glyphicon glyphicon-user" ></span>{{flag}}</a></li>
+                       <li *ngIf="islogin"><a [routerLink]="['/logout']"><span class="glyphicon glyphicon-log-out" ></span>Logout</a></li>
+                       <li *ngIf="!islogin" ><a [routerLink]="['/signup']"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                       <li *ngIf="!islogin"><a [routerLink]="['/login']"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                   </ul>
+               </div>
+           </div>
+</nav>

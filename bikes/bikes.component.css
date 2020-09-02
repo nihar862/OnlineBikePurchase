@@ -1,0 +1,12 @@
+.border{
+    border: 5px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 1000px;
+    }
+    .border:hover {
+    box-shadow: 0 0 70px 3px rgba(0,0,0,0.6);
+    }
+    .border2:hover {
+    box-shadow: 0 0 40px 1px rgba(0, 0, 255, 0.5);
+    }

@@ -1,0 +1,37 @@
+#body {
+    background-image: url("../../assets/back2.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+div.background {
+    background: url(../../assets/profile.jpg) repeat;
+    border: 2px solid black;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: black;
+    height: 75%;
+    width: 85%;
+    opacity: 0.8;
+    filter: alpha(opacity=10);
+}
+
+div.transbox p {
+    margin: 3%;
+    font-weight: bold;
+    color: white;
+}
+
+div.form-group{
+    border-radius:0 0 50 50px; 
+}
+#title{
+    color: whitesmoke;
+}
+.border:hover {
+box-shadow: 0 0 100px 10px rgba(0,0,255,1);
+  }

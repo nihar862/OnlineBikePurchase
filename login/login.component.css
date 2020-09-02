@@ -1,0 +1,25 @@
+#body {
+    background-image: url("../../assets/back2.jpg");
+    height: 100vh;
+    background-position: center ;
+    background-size: cover;
+}
+div.background {
+    background: url(../../assets/profile.jpg) repeat;
+    border: 2px solid black;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: white;
+    height: 75%;
+    width: 65%;
+    opacity: 0.9;
+    filter: alpha(opacity=10); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    margin: 3%;
+    font-weight: bold;
+    color: white;
+}
